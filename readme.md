@@ -1,4 +1,4 @@
-# Simple RFB strip fader
+# Simple RGB strip fader
 This is a little c++ library to create smother trasitions between rgb leds on a strip.
 
 ## Description
@@ -10,7 +10,7 @@ It is designed for an arduino project, it is minimal, has little security checks
 
 #define STRIP_LENGTH 20 \\ length of led strip ; can also be set in runtime
 ```
-inside mathod:
+inside method:
  ```
     RGB_UNIT strip[STRIP_LENGTH];
 
